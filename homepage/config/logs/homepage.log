@@ -1,0 +1,656 @@
+[2024-10-25T06:42:59.370Z] info: docker.yaml was copied to the config folder
+[2024-10-25T06:42:59.374Z] info: services.yaml was copied to the config folder
+[2024-10-25T06:42:59.374Z] info: bookmarks.yaml was copied to the config folder
+[2024-10-25T06:42:59.389Z] info: widgets.yaml was copied to the config folder
+[2024-10-25T06:42:59.390Z] info: custom.css was copied to the config folder
+[2024-10-25T06:42:59.391Z] info: custom.js was copied to the config folder
+[2024-10-25T06:42:59.602Z] info: kubernetes.yaml was copied to the config folder
+[2024-10-25T07:10:09.481Z] error: <httpProxy> Error calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources...
+[2024-10-25T07:10:09.487Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND proxmox.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxmox.host.or.ip'
+  }
+]
+[2024-10-25T07:10:09.488Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources
+[2024-10-25T07:11:44.931Z] error: <httpProxy> Error calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources...
+[2024-10-25T07:11:44.932Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND proxmox.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxmox.host.or.ip'
+  }
+]
+[2024-10-25T07:11:44.933Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources
+[2024-10-25T07:11:45.146Z] error: <httpProxy> Error calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources...
+[2024-10-25T07:11:45.147Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND proxmox.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxmox.host.or.ip'
+  }
+]
+[2024-10-25T07:11:45.147Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources
+[2024-10-25T07:12:22.143Z] error: <httpProxy> Error calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources...
+[2024-10-25T07:12:22.144Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND proxmox.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxmox.host.or.ip'
+  }
+]
+[2024-10-25T07:12:22.145Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources
+[2024-10-25T07:12:43.415Z] error: <httpProxy> Error calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources...
+[2024-10-25T07:12:43.416Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND proxmox.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxmox.host.or.ip'
+  }
+]
+[2024-10-25T07:12:43.417Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.host.or.ip:8006/api2/json/cluster/resources
+[2024-10-25T07:14:25.283Z] error: undefined
+[2024-10-25T07:14:25.287Z] error: undefined
+[2024-10-25T07:14:28.822Z] error: undefined
+[2024-10-25T07:14:28.824Z] error: undefined
+[2024-10-25T07:14:33.838Z] error: undefined
+[2024-10-25T07:14:38.850Z] error: undefined
+[2024-10-25T07:14:58.862Z] error: undefined
+[2024-10-25T07:14:58.882Z] error: undefined
+[2024-10-25T07:15:23.885Z] error: undefined
+[2024-10-25T07:15:38.901Z] error: undefined
+[2024-10-25T07:16:18.902Z] error: undefined
+[2024-10-25T07:16:48.916Z] error: undefined
+[2024-10-25T07:18:28.916Z] error: undefined
+[2024-10-25T07:18:43.451Z] error: undefined
+[2024-10-25T07:18:43.453Z] error: undefined
+[2024-10-25T07:18:43.725Z] error: undefined
+[2024-10-25T07:18:43.727Z] error: undefined
+[2024-10-25T07:18:49.469Z] error: undefined
+[2024-10-25T07:18:50.721Z] error: undefined
+[2024-10-25T07:18:50.723Z] error: undefined
+[2024-10-25T07:18:53.751Z] error: undefined
+[2024-10-25T07:18:56.462Z] error: undefined
+[2024-10-25T07:18:58.075Z] error: undefined
+[2024-10-25T07:18:58.076Z] error: undefined
+[2024-10-25T07:19:00.739Z] error: undefined
+[2024-10-25T07:19:08.103Z] error: undefined
+[2024-10-25T07:19:08.105Z] error: undefined
+[2024-10-25T07:19:10.768Z] error: undefined
+[2024-10-25T07:19:18.772Z] error: undefined
+[2024-10-25T07:19:28.124Z] error: undefined
+[2024-10-25T07:19:28.125Z] error: undefined
+[2024-10-25T07:19:30.793Z] error: undefined
+[2024-10-25T07:19:38.799Z] error: undefined
+[2024-10-25T07:19:49.495Z] error: undefined
+[2024-10-25T07:19:49.497Z] error: undefined
+[2024-10-25T07:19:49.688Z] error: undefined
+[2024-10-25T07:19:49.689Z] error: undefined
+[2024-10-25T07:19:54.609Z] error: undefined
+[2024-10-25T07:19:54.611Z] error: undefined
+[2024-10-25T07:20:00.467Z] error: undefined
+[2024-10-25T07:20:00.469Z] error: undefined
+[2024-10-25T07:22:09.782Z] error: undefined
+[2024-10-25T07:22:09.785Z] error: undefined
+[2024-10-25T07:22:09.968Z] error: undefined
+[2024-10-25T07:22:09.969Z] error: undefined
+[2024-10-25T07:22:09.971Z] error: undefined
+[2024-10-25T07:22:14.981Z] error: undefined
+[2024-10-25T07:22:19.986Z] error: undefined
+[2024-10-25T07:22:19.987Z] error: undefined
+[2024-10-25T07:22:29.996Z] error: undefined
+[2024-10-25T07:22:30.004Z] error: undefined
+[2024-10-25T07:22:34.999Z] error: undefined
+[2024-10-25T07:22:50.015Z] error: undefined
+[2024-10-25T07:23:10.020Z] error: undefined
+[2024-10-25T07:23:20.017Z] error: undefined
+[2024-10-25T07:24:05.031Z] error: undefined
+[2024-10-25T07:24:45.039Z] error: undefined
+[2024-10-25T07:24:45.041Z] error: undefined
+[2024-10-25T07:26:40.464Z] error: undefined
+[2024-10-25T07:27:25.459Z] error: undefined
+[2024-10-25T07:28:00.467Z] error: undefined
+[2024-10-25T07:28:13.154Z] error: undefined
+[2024-10-25T07:28:13.156Z] error: undefined
+[2024-10-25T07:28:13.157Z] error: undefined
+[2024-10-25T07:28:18.171Z] error: undefined
+[2024-10-25T07:28:23.171Z] error: undefined
+[2024-10-25T07:28:23.172Z] error: undefined
+[2024-10-25T07:28:33.463Z] error: undefined
+[2024-10-25T07:28:38.452Z] error: undefined
+[2024-10-25T07:28:43.451Z] error: undefined
+[2024-10-25T07:28:48.368Z] error: undefined
+[2024-10-25T07:28:48.370Z] error: undefined
+[2024-10-25T07:28:48.373Z] error: undefined
+[2024-10-25T07:28:53.479Z] error: undefined
+[2024-10-25T07:28:53.481Z] error: undefined
+[2024-10-25T07:28:53.483Z] error: undefined
+[2024-10-25T07:28:58.462Z] error: undefined
+[2024-10-25T07:28:58.465Z] error: undefined
+[2024-10-25T07:28:59.469Z] error: undefined
+[2024-10-25T07:28:59.470Z] error: undefined
+[2024-10-25T07:28:59.472Z] error: undefined
+[2024-10-25T07:29:38.854Z] error: undefined
+[2024-10-25T07:29:38.858Z] error: undefined
+[2024-10-25T07:29:38.860Z] error: undefined
+[2024-10-25T07:29:43.881Z] error: undefined
+[2024-10-25T07:29:43.882Z] error: undefined
+[2024-10-25T07:29:48.885Z] error: undefined
+[2024-10-25T07:30:03.908Z] error: undefined
+[2024-10-25T07:30:03.910Z] error: undefined
+[2024-10-25T07:30:10.775Z] error: undefined
+[2024-10-25T07:30:10.777Z] error: undefined
+[2024-10-25T07:30:10.778Z] error: undefined
+[2024-10-25T07:30:11.027Z] error: undefined
+[2024-10-25T07:30:11.029Z] error: undefined
+[2024-10-25T07:30:11.030Z] error: undefined
+[2024-10-25T07:30:14.785Z] error: undefined
+[2024-10-25T07:30:14.786Z] error: undefined
+[2024-10-25T07:30:14.787Z] error: undefined
+[2024-10-25T07:30:16.040Z] error: undefined
+[2024-10-25T07:30:20.456Z] error: undefined
+[2024-10-25T07:30:21.460Z] error: undefined
+[2024-10-25T07:30:21.462Z] error: undefined
+[2024-10-25T07:30:23.741Z] error: undefined
+[2024-10-25T07:30:23.742Z] error: undefined
+[2024-10-25T07:30:23.749Z] error: undefined
+[2024-10-25T07:30:24.802Z] error: undefined
+[2024-10-25T07:30:24.804Z] error: undefined
+[2024-10-25T07:30:29.469Z] error: undefined
+[2024-10-25T07:30:34.471Z] error: undefined
+[2024-10-25T07:30:34.473Z] error: undefined
+[2024-10-25T07:30:35.455Z] error: undefined
+[2024-10-25T07:30:35.457Z] error: undefined
+[2024-10-25T07:30:36.466Z] error: undefined
+[2024-10-25T07:30:41.499Z] error: undefined
+[2024-10-25T07:30:41.500Z] error: undefined
+[2024-10-25T07:30:41.504Z] error: undefined
+[2024-10-25T07:30:46.514Z] error: undefined
+[2024-10-25T07:30:52.469Z] error: undefined
+[2024-10-25T07:30:52.471Z] error: undefined
+[2024-10-25T07:31:12.466Z] error: undefined
+[2024-10-25T07:32:16.904Z] error: undefined
+[2024-10-25T07:32:16.906Z] error: undefined
+[2024-10-25T07:32:16.907Z] error: undefined
+[2024-10-25T07:32:17.123Z] error: undefined
+[2024-10-25T07:32:17.124Z] error: undefined
+[2024-10-25T07:32:17.126Z] error: undefined
+[2024-10-25T07:32:22.461Z] error: undefined
+[2024-10-25T07:32:22.463Z] error: undefined
+[2024-10-25T07:32:27.459Z] error: undefined
+[2024-10-25T07:34:42.094Z] error: undefined
+[2024-10-25T07:34:42.096Z] error: undefined
+[2024-10-25T07:34:42.097Z] error: undefined
+[2024-10-25T07:34:47.106Z] error: undefined
+[2024-10-25T07:34:52.119Z] error: undefined
+[2024-10-25T07:34:52.123Z] error: undefined
+[2024-10-25T07:35:02.131Z] error: undefined
+[2024-10-25T07:35:07.119Z] error: undefined
+[2024-10-25T07:35:07.135Z] error: undefined
+[2024-10-25T07:35:32.163Z] error: undefined
+[2024-10-25T07:35:52.133Z] error: undefined
+[2024-10-25T07:35:57.143Z] error: undefined
+[2024-10-25T07:36:52.155Z] error: undefined
+[2024-10-25T07:36:52.182Z] error: undefined
+[2024-10-25T07:37:12.159Z] error: undefined
+[2024-10-25T07:39:27.462Z] error: undefined
+[2024-10-25T07:40:27.454Z] error: undefined
+[2024-10-25T07:40:42.455Z] error: undefined
+[2024-10-25T07:43:31.882Z] error: undefined
+[2024-10-25T07:43:31.884Z] error: undefined
+[2024-10-25T07:43:31.886Z] error: undefined
+[2024-10-25T07:43:32.127Z] error: undefined
+[2024-10-25T07:43:32.128Z] error: undefined
+[2024-10-25T07:43:32.131Z] error: undefined
+[2024-10-25T07:43:34.558Z] error: undefined
+[2024-10-25T07:43:34.559Z] error: undefined
+[2024-10-25T07:43:34.561Z] error: undefined
+[2024-10-25T07:43:39.579Z] error: undefined
+[2024-10-25T07:43:44.585Z] error: undefined
+[2024-10-25T07:43:44.587Z] error: undefined
+[2024-10-25T07:43:54.612Z] error: undefined
+[2024-10-25T07:44:23.580Z] error: undefined
+[2024-10-25T07:44:31.653Z] error: undefined
+[2024-10-25T07:44:46.647Z] error: undefined
+[2024-10-25T07:45:11.673Z] error: undefined
+[2024-10-25T07:45:50.983Z] error: undefined
+[2024-10-25T07:45:50.985Z] error: undefined
+[2024-10-25T07:45:55.997Z] error: undefined
+[2024-10-25T07:46:00.997Z] error: undefined
+[2024-10-25T07:46:11.028Z] error: undefined
+[2024-10-25T07:46:21.020Z] error: undefined
+[2024-10-25T07:46:56.040Z] error: undefined
+[2024-10-25T07:47:01.140Z] error: undefined
+[2024-10-25T07:47:01.151Z] error: undefined
+[2024-10-25T07:47:01.386Z] error: undefined
+[2024-10-25T07:47:01.391Z] error: undefined
+[2024-10-25T07:47:06.404Z] error: undefined
+[2024-10-25T07:47:06.406Z] error: undefined
+[2024-10-25T07:47:21.427Z] error: undefined
+[2024-10-25T07:47:21.429Z] error: undefined
+[2024-10-25T07:47:53.773Z] error: undefined
+[2024-10-25T07:48:06.471Z] error: undefined
+[2024-10-25T07:48:44.848Z] error: undefined
+[2024-10-25T07:48:44.970Z] error: undefined
+[2024-10-25T07:48:46.726Z] error: undefined
+[2024-10-25T07:48:46.737Z] error: undefined
+[2024-10-25T07:48:52.455Z] error: undefined
+[2024-10-25T07:48:57.464Z] error: undefined
+[2024-10-25T07:50:15.151Z] error: undefined
+[2024-10-25T07:50:15.163Z] error: undefined
+[2024-10-25T07:50:25.164Z] error: undefined
+[2024-10-25T07:50:25.175Z] error: undefined
+[2024-10-25T07:50:40.203Z] error: undefined
+[2024-10-25T07:50:45.189Z] error: undefined
+[2024-10-25T07:51:10.218Z] error: undefined
+[2024-10-25T07:51:30.229Z] error: undefined
+[2024-10-25T07:52:10.234Z] error: undefined
+[2024-10-25T07:52:50.454Z] error: undefined
+[2024-10-25T07:53:45.473Z] error: undefined
+[2024-10-25T07:56:31.641Z] error: undefined
+[2024-10-25T07:56:31.673Z] error: undefined
+[2024-10-25T07:56:41.669Z] error: undefined
+[2024-10-25T07:56:41.699Z] error: undefined
+[2024-10-25T07:56:51.684Z] error: undefined
+[2024-10-25T07:56:51.715Z] error: undefined
+[2024-10-25T07:57:08.614Z] error: undefined
+[2024-10-25T07:57:08.627Z] error: undefined
+[2024-10-25T07:57:13.648Z] error: undefined
+[2024-10-25T07:57:18.632Z] error: undefined
+[2024-10-25T07:57:58.132Z] error: undefined
+[2024-10-25T07:57:58.136Z] error: undefined
+[2024-10-25T07:58:03.451Z] error: undefined
+[2024-10-25T07:58:03.580Z] error: undefined
+[2024-10-25T07:58:03.587Z] error: undefined
+[2024-10-25T07:58:08.160Z] error: undefined
+[2024-10-25T07:58:08.613Z] error: undefined
+[2024-10-25T07:58:13.599Z] error: undefined
+[2024-10-25T07:58:18.467Z] error: undefined
+[2024-10-25T07:58:24.453Z] error: undefined
+[2024-10-25T07:58:29.458Z] error: undefined
+[2024-10-25T08:02:12.142Z] error: undefined
+[2024-10-25T08:02:12.175Z] error: undefined
+[2024-10-25T08:02:16.344Z] error: undefined
+[2024-10-25T08:02:16.352Z] error: undefined
+[2024-10-25T08:02:17.164Z] error: undefined
+[2024-10-25T08:02:22.200Z] error: undefined
+[2024-10-25T08:02:26.369Z] error: undefined
+[2024-10-25T08:02:26.370Z] error: undefined
+[2024-10-25T08:02:36.397Z] error: undefined
+[2024-10-25T08:02:42.184Z] error: undefined
+[2024-10-25T08:02:42.225Z] error: undefined
+[2024-10-25T08:02:46.385Z] error: undefined
+[2024-10-25T08:03:29.899Z] error: undefined
+[2024-10-25T08:03:29.934Z] error: undefined
+[2024-10-25T08:03:34.918Z] error: undefined
+[2024-10-25T08:03:39.957Z] error: undefined
+[2024-10-25T08:03:49.940Z] error: undefined
+[2024-10-25T08:04:04.981Z] error: undefined
+[2024-10-25T08:04:59.453Z] error: undefined
+[2024-10-25T08:05:00.001Z] error: undefined
+[2024-10-25T08:05:03.985Z] error: undefined
+[2024-10-25T08:05:04.038Z] error: undefined
+[2024-10-25T08:05:08.998Z] error: undefined
+[2024-10-25T08:05:14.072Z] error: undefined
+[2024-10-25T08:05:29.018Z] error: undefined
+[2024-10-25T08:05:29.086Z] error: undefined
+[2024-10-25T08:05:49.046Z] error: undefined
+[2024-10-25T08:06:43.065Z] error: undefined
+[2024-10-25T08:06:43.069Z] error: undefined
+[2024-10-25T08:06:48.090Z] error: undefined
+[2024-10-25T08:06:53.088Z] error: undefined
+[2024-10-25T08:06:58.116Z] error: undefined
+[2024-10-25T08:07:03.110Z] error: undefined
+[2024-10-25T08:07:38.136Z] error: undefined
+[2024-10-25T08:07:53.143Z] error: undefined
+[2024-10-25T08:09:13.172Z] error: undefined
+[2024-10-25T08:10:33.207Z] error: undefined
+[2024-10-25T08:13:48.575Z] error: undefined
+[2024-10-25T08:13:58.604Z] error: undefined
+[2024-10-25T08:14:13.637Z] error: undefined
+[2024-10-25T08:14:40.074Z] error: undefined
+[2024-10-25T08:14:40.100Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:14:40.143Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:14:40.155Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:14:40.353Z] error: undefined
+[2024-10-25T08:14:40.383Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:14:40.410Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:14:40.413Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:14:45.366Z] error: undefined
+[2024-10-25T08:14:45.402Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:14:45.430Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:14:50.440Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:14:55.387Z] error: undefined
+[2024-10-25T08:14:55.436Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:15:05.461Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:15:35.000Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:15:35.412Z] error: undefined
+[2024-10-25T08:15:35.506Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:15:50.460Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:16:31.080Z] error: undefined
+[2024-10-25T08:16:35.057Z] error: undefined
+[2024-10-25T08:16:41.109Z] error: undefined
+[2024-10-25T08:16:56.126Z] error: undefined
+[2024-10-25T08:18:29.110Z] error: undefined
+[2024-10-25T08:18:29.163Z] error: <httpProxy> Error calling http://lab-zabbix-tja.labra.local/api_jsonrpc.php...
+[2024-10-25T08:18:29.168Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-10-25T08:18:29.504Z] error: undefined
+[2024-10-25T08:18:29.521Z] error: <httpProxy> Error calling http://lab-zabbix-tja.labra.local/api_jsonrpc.php...
+[2024-10-25T08:18:29.523Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-10-25T08:18:39.519Z] error: undefined
+[2024-10-25T08:18:49.548Z] error: undefined
+[2024-10-25T08:19:24.571Z] error: undefined
+[2024-10-25T08:20:24.604Z] error: undefined
+[2024-10-25T08:22:17.137Z] error: undefined
+[2024-10-25T08:22:35.794Z] error: undefined
+[2024-10-25T08:22:40.816Z] error: undefined
+[2024-10-25T08:22:50.855Z] error: undefined
+[2024-10-25T08:22:58.964Z] error: undefined
+[2024-10-25T08:23:04.603Z] error: undefined
+[2024-10-25T08:23:08.987Z] error: undefined
+[2024-10-25T08:23:09.618Z] error: undefined
+[2024-10-25T08:23:34.001Z] error: undefined
+[2024-10-25T08:23:35.450Z] error: undefined
+[2024-10-25T08:23:41.469Z] error: undefined
+[2024-10-25T08:23:45.470Z] error: undefined
+[2024-10-25T08:23:50.492Z] error: undefined
+[2024-10-25T08:23:59.026Z] error: undefined
+[2024-10-25T08:24:10.520Z] error: undefined
+[2024-10-25T08:26:42.481Z] error: <httpProxy> Error calling http://lab-zabbix-tja.labra.local/api_jsonrpc.php...
+[2024-10-25T08:26:42.487Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-10-25T08:33:55.040Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-10-25T08:33:55.042Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:33:55.045Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-25T08:33:55.045Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:33:55.061Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-25T08:33:55.062Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:33:55.131Z] error: <index> YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1448:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2263:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (/app/.next/server/chunks/1227.js:109:75)
+    at getStaticProps (/app/.next/server/pages/index.js:3132:101)
+[2024-10-25T08:33:55.226Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-10-25T08:33:55.226Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:33:55.228Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-25T08:33:55.229Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:33:55.232Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-25T08:33:55.232Z] error: YAMLException: duplicated mapping key (14:1)
+
+ 11 |     style: row
+ 12 |     columns: 4
+ 13 | 
+ 14 | layout:
+------^
+ 15 |   Verkon seuranta:
+ 16 |     style: row
+[2024-10-25T08:37:12.216Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:37:12.464Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:37:25.503Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:37:40.312Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:37:40.505Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:37:53.547Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:38:21.580Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:03.938Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:04.168Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:12.205Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:30.243Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:50.983Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:39:59.026Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:40:12.063Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:49:59.220Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:49:59.230Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:49:59.232Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:49:59.422Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:49:59.431Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:49:59.438Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:50:04.469Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:50:04.471Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:50:04.473Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:50:19.514Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T08:50:19.515Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T08:50:29.508Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T08:56:53.208Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.243Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.245Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.257Z] error: Failed to load services.yaml, please check for errors
+[2024-10-25T08:56:53.249Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.255Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.258Z] error: YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+[2024-10-25T08:56:53.274Z] error: <servicesProxy> YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDoubleQuotedScalar (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1793:3)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2537:13)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+[2024-10-25T08:56:53.280Z] error: Failed to load services.yaml, please check for errors
+[2024-10-25T08:56:53.280Z] error: YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+[2024-10-25T08:56:53.415Z] error: Failed to load services.yaml, please check for errors
+[2024-10-25T08:56:53.415Z] error: YAMLException: unexpected end of the stream within a double quoted scalar (134:1)
+
+ 131 |             key: 1-PXKaMTnNCHK8 ...
+ 132 |             enablePools: true # ...
+ 133 |             nasType: scale # de ...
+ 134 | 
+-------^
+[2024-10-25T08:58:17.745Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T08:58:30.794Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://10.0.1.10:8006/api2/json/cluster/resources
+[2024-10-25T09:48:15.148Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T09:48:15.151Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T09:48:15.205Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T09:48:15.389Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T09:48:15.399Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T09:48:15.432Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T09:48:20.423Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T09:48:20.428Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T09:48:25.461Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T09:48:30.482Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/system/info
+[2024-10-25T09:48:40.444Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/alert/list
+[2024-10-25T09:48:45.493Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://truenas-web.labra.local/api/v2.0/pool
+[2024-10-25T10:43:14.151Z] error: <httpProxy> Error calling http://truenas-web.labra.local/...
+[2024-10-25T10:43:14.158Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN truenas-web.labra.local
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'truenas-web.labra.local'
+  }
+]

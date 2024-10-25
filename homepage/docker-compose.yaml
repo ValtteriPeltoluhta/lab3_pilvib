@@ -1,0 +1,21 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3000:3000
+    env_file: .env
+    volumes:
+      - ./config:/app/config # Make sure your local config directory exists
+      - ./images:/app/public/images
+      - ./icons:/app/public/icons
+     # - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations, see alternative methods
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      HOMEPAGE_VAR_PROXMOX_USER: $HOMEPAGE_VAR_PROXMOX_USER
+      HOMEPAGE_VAR_PROXMOX_PASSWORD: $HOMEPAGE_VAR_PROXMOX_PASSWORD
+      HOMEPAGE_VAR_ZABBIX_API: $HOMEPAGE_VAR_ZABBIX_API
+      HOMEPAGE_VAR_TRUENAS_API: $HOMEPAGE_VAR_TRUENAS_API
+    restart: unless-stopped
+    

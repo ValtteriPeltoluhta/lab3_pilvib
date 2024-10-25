@@ -1,0 +1,180 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services
+
+- Proxmox:
+
+    - Proxmox:
+        href: https://10.0.1.10:8006
+        description: Proxmox 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.10:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.10:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: proxmox # optional     
+
+    - Proxmox:
+        href: https://10.0.1.11:8006
+        description: pve2 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.11:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.11:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve2 # optional       
+
+    - Proxmox:
+        href: https://10.0.1.12:8006
+        description: pve3 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.12:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.12:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve3 # optional   
+
+    - Proxmox:
+        href: https://10.0.1.13:8006
+        description: pve4
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.13:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.13:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve4 # optional           
+            
+    - Proxmox:
+        href: https://10.0.1.14:8006
+        description: pve5 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.14:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.14:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve5 # optional       
+
+    - Proxmox:
+        href: https://10.0.1.15:8006
+        description: pve6 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.15:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.15:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve6 # optional     
+
+    - Proxmox:
+        href: https://10.0.1.16:8006
+        description: pve7 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.16:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.16:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve7 # optional       
+
+    - Proxmox:
+        href: https://10.0.1.17:8006
+        description: pve8 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.17:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.17:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pve8 # optional    
+
+    - Proxmox:
+        href: https://10.0.1.24:8006
+        description: pvedell3 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.24:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.24:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pvedell3 # optional                
+
+    - Proxmox:
+        href: https://10.0.1.23:8006
+        description: pvedellR510 
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.23:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.23:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pvedellR510 # optional       
+
+    - Proxmox:
+        href: https://10.0.1.18:8006
+        description: pvedellR710
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.18:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.18:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pvedellR710 # optional           
+
+    - Proxmox:
+        href: https://10.0.1.22:8006
+        description: pvedell720
+        icon: proxmox.png
+        siteMonitor: https://10.0.1.22:8006
+        widget:
+            type: proxmox
+            url: https://10.0.1.22:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            node: pvedellR720 # optional
+
+- Verkon seuranta:
+    - Netdata:
+        href: http://pvedellr720.labra.local:19999
+        description: 
+        icon: netdata.png
+        widget:
+            type: netdata
+            url: http://pvedellr720.labra.local:19999
+    - Zabbix:
+        href: http://lab-zabbix-tja.labra.local
+        icon: zabbix.png
+        widget:
+            type: zabbix
+            url: http://lab-zabbix-tja.labra.local
+            key: {{HOMEPAGE_VAR_ZABBIX_API}}
+
+- Labran NAS:
+    - TrueNas:
+        href: http://truenas-web.labra.local
+        description: Verkkolevyt
+        icon: truenas.png
+        siteMonitor: http://truenas-web.labra.local
+        widget:
+            type: truenas
+            url: http://truenas-web.labra.local
+            username: # not required if using api key
+            password:  # not required if using api key
+            key: {{HOMEPAGE_VAR_TRUENAS_API}} # not required if using username / password
+            enablePools: true # optional, defaults to false
+            nasType: core # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core

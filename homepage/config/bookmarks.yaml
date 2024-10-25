@@ -1,0 +1,15 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+
+- Social:
+    - HAMK:
+        - icon: /icons/HAMK1.png
+        
+          href: https://hamk.fi
+          
+- eggdog:
+    - Github:
+        - icon: /icons/eggdog1.png
+          href: https://github.com/

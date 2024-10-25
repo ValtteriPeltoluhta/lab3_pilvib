@@ -1,0 +1,20 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings
+
+background: 
+  image: /images/HAMK_R.jpg
+  lur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 30 # 0-100
+
+layout:
+  Proxmox:
+    style: row
+    columns: 4
+
+  Verkon seuranta:
+    style: row
+    columns: 2    
+  
